@@ -1,0 +1,105 @@
+/* style.css */
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 18px;
+}
+
+h2, h3 {
+  font-family: Chivo;
+  color: black;
+}
+
+h1 {
+	font-family: Chivo;
+  color: white;
+ }
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: darkred;
+}/* Write some CSS below */
+
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px 
+}
+
+.banner p {
+	color: white;
+}
+
+.button-blue {
+	display: inline-block;
+	border-radius: 5px;
+	color: whitesmoke;
+	background-color: blue;
+	text-decoration: none;
+	padding: 10px 15px
+
+}
+.button-blue: hover{
+	background-color: blue;
+	color: darkred;
+}
+
+.container {
+	background-color: white ;
+	width: 800px;
+	margin: auto;
+}
+
+.card-white {
+	background-color: whitesmoke;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16x black;
+	padding: 18px;
+	margin: 8px;
+	text-align: center;
+	width: 200px;
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+}
+
+.footer {
+	background-color: lightslategrey;
+	padding: 24px 0;
+	text-align: center;
+}
+
+.footer p {
+	color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+	
